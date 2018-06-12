@@ -5,3 +5,5 @@ lazy val phoneCompany = (project in file(".")).settings(
     scalaVersion := "2.12.3"
   )
 )
+
+libraryDependencies += "com.typesafe" % "config" % "1.3.2"
